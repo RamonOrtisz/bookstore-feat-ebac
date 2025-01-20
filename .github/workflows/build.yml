@@ -40,7 +40,7 @@ jobs:
       SQL_ENGINE: django.db.backends.postgresql
       SQL_DATABASE: bookstore_dev_db
       SQL_USER: bookstore_dev
-      SQL_PASSWORD: ${{ secrets.SQL_PASSWORD }}
+      SQL_PASSWORD: bookstore_dev
       SQL_HOST: db
       SQL_PORT: 5432
       run: |
