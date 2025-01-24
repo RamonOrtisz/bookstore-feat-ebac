@@ -6,7 +6,7 @@ authors = ["Ramon Galdino da Silva <ramonofcgta@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.10.0"
 asgiref = "3.8.1"
 colorama = "0.4.6"
 django = "5.1.5"
