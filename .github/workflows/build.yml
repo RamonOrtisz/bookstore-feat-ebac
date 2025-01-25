@@ -28,8 +28,9 @@ jobs:
     - name: Install dependencies
       shell: bash
       run: | 
-        poetry lock
         poetry install
+        python poetry lock
+        
 
     - name: Test
       run: |
