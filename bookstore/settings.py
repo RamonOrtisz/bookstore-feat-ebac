@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-v%s0zb00k*9%)7#ky+m6$g6sma1=nt4rpk8$7w!&gb!^9&7clx"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["ramongs.pythonanywhere.com", "127.0.0.1", "localhost"]
 
@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "bookstore.urls"
 
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 TEMPLATES = [
     {
